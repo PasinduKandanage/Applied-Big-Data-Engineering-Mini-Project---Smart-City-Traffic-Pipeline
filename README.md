@@ -405,7 +405,7 @@ docker-compose down -v
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Kafka Not Starting
 
@@ -447,12 +447,10 @@ python producers/traffic_sensor.py  # Look for connection errors
 
 ##  Contributors
 
-- **[EG/2020/4003 - Kadanage K.D.P.H]** 
-- **[EG/2020/4078 - Morawaliyadda M.G.H.S.M]** 
-- **[EG/2020/4289 - Wijebandara P.A.I]** 
-- **Course**: Applied Big Data Engineering
-- **Institution**: University of Ruhuna, Faculty of Engineering
-- **Date**: May 2026
+- **EG/2020/4003 - Kadanage K.D.P.H** 
+- **EG/2020/4078 - Morawaliyadda M.G.H.S.M** 
+- **EG/2020/4289 - Wijebandara P.A.I** 
+- **Module**: Applied Big Data Engineering
 
 ---
 

@@ -1,4 +1,4 @@
-smart-city-traffic-pipeline/
+big-data-mini-project/
 │
 ├── README.md                          # Project overview and setup instructions
 ├── requirements.txt                   # Python dependencies

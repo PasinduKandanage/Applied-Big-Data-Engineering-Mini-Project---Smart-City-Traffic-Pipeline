@@ -1,5 +1,76 @@
 # Smart City Traffic Management Pipeline
 
+#####
+
+big-data-mini-project/
+│
+├── README.md                          # Project overview and setup instructions
+├── requirements.txt                   # Python dependencies
+├── docker-compose.yml                 # Docker setup for all services
+├── .env                               # Environment variables
+│
+├── docs/                              # Documentation folder
+│   ├── architecture_diagram.png       # Your architecture diagram
+│   ├── project_report.pdf             # 1500-word report
+│   └── screenshots/                   # Screenshots of running system
+│       ├── kafka_console.png
+│       ├── spark_output.png
+│       └── airflow_dag.png
+│
+├── data/                              # Data storage
+│   ├── raw/                           # Raw sensor data (if saving to files)
+│   ├── processed/                     # Processed data
+│   └── reports/                       # Generated reports
+│       └── daily_traffic_report.csv
+│
+├── producers/                         # Data generators (Kafka producers)
+│   ├── __init__.py
+│   ├── traffic_sensor.py             # Main sensor simulator
+│   ├── config.py                     # Configuration for sensors
+│   └── utils.py                      # Helper functions
+│
+├── consumers/                         # Spark streaming jobs
+│   ├── __init__.py
+│   ├── stream_processor.py           # Main Spark streaming application
+│   ├── congestion_detector.py        # Logic for detecting congestion
+│   └── alert_handler.py              # Handle critical traffic alerts
+│
+├── airflow/                          # Airflow orchestration
+│   ├── dags/                         # DAG definitions
+│   │   ├── __init__.py
+│   │   └── daily_traffic_report.py   # Nightly batch job DAG
+│   ├── plugins/                      # Custom Airflow plugins
+│   │   └── __init__.py
+│   └── config/
+│       └── airflow.cfg               # Airflow configuration
+│
+├── database/                         # Database scripts
+│   ├── init_db.sql                   # PostgreSQL table creation scripts
+│   ├── schema.sql                    # Database schema
+│   └── queries.sql                   # Useful queries for testing
+│
+├── scripts/                          # Utility scripts
+│   ├── setup_kafka.sh                # Script to create Kafka topics
+│   ├── start_all.sh                  # Start all services
+│   ├── stop_all.sh                   # Stop all services
+│   └── test_connection.py            # Test if all services are running
+│
+├── notebooks/                        # Jupyter notebooks (optional)
+│   └── data_analysis.ipynb           # For testing and visualization
+│
+├── tests/                            # Unit tests
+│   ├── __init__.py
+│   ├── test_producer.py
+│   ├── test_consumer.py
+│   └── test_airflow_dag.py
+│
+└── config/                           # Configuration files
+    ├── kafka_config.yml
+    ├── spark_config.yml
+    └── postgres_config.yml
+
+#####
+
 **Applied Big Data Engineering - Mini Project**  
 **Lambda Architecture for Real-time Traffic Analysis**
 

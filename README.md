@@ -154,7 +154,7 @@ smart-city-traffic-pipeline/
 │   └── traffic_sensor.py         # Simulates 4 traffic sensors
 │
 ├── consumers/
-│   └── stream_processor_simple.py # Real-time congestion detector
+│   └── stream_processor.py # Real-time congestion detector
 │
 ├── airflow/dags/
 │   └── daily_traffic_report.py   # Nightly batch job
@@ -185,8 +185,8 @@ smart-city-traffic-pipeline/
 
 ```bash
 # Clone repository
-git clone https://github.com/ashanwijebandara/big-data-mini-project.git
-cd big-data-mini-project
+git clone https://github.com/PasinduKandanage/Applied-Big-Data-Engineering-Mini-Project---Smart-City-Traffic-Pipeline.git
+cd Applied-Big-Data-Engineering-Mini-Project---Smart-City-Traffic-Pipeline
 
 # Start all services
 docker-compose up -d
@@ -371,7 +371,7 @@ docker-compose down -v
 
 - Event time preserves data accuracy
 - Processing time adds metadata for debugging
-- Both stored in PostgreSQL for audit trail
+- Both are stored in PostgreSQL for the audit trail
 
 ---
 
@@ -447,7 +447,7 @@ python producers/traffic_sensor.py  # Look for connection errors
 
 ##  Contributors
 
-- **EG/2020/4003 - Kadanage K.D.P.H** 
+- **EG/2020/4003 - Kandanage K.D.P.H** 
 - **EG/2020/4078 - Morawaliyadda M.G.H.S.M** 
 - **EG/2020/4289 - Wijebandara P.A.I** 
 - **Module**: Applied Big Data Engineering
@@ -459,5 +459,6 @@ python producers/traffic_sensor.py  # Look for connection errors
 This project is for educational purposes as part of the Applied Big Data Engineering course.
 
 ---
-#   A p p l i e d - B i g - D a t a - E n g i n e e r i n g - M i n i - P r o j e c t - - - S m a r t - C i t y - T r a f f i c - P i p e l i n e  
+#   A p p l i e d - B i g - D a t a - E n g i n e e r i n g - M i n i - P r o j e c t - - - S m a r t - C i t y - T r a f f i c - P i p e l i n e 
+ 
  

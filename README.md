@@ -1,3 +1,5 @@
+# Smart City Traffic Management Pipeline
+
 big-data-mini-project/
 │
 ├── README.md                          # Project overview and setup instructions

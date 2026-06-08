@@ -459,3 +459,5 @@ python producers/traffic_sensor.py  # Look for connection errors
 This project is for educational purposes as part of the Applied Big Data Engineering course.
 
 ---
+#   A p p l i e d - B i g - D a t a - E n g i n e e r i n g - M i n i - P r o j e c t - - - S m a r t - C i t y - T r a f f i c - P i p e l i n e  
+ 
